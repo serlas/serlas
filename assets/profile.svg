@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Вячеслав Кузнецов — DevOps и backend</title>
+  <desc id="desc">Справа три серверных узла, соединённых сетью. Слева имя и направления работы.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2=".35" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0d182a"/><stop offset=".55" stop-color="#132c42"/><stop offset="1" stop-color="#123f4a"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#81b5cd" stroke-opacity=".09"/></pattern>
+    <linearGradient id="top" x2="1" y2="1"><stop stop-color="#366579"/><stop offset="1" stop-color="#214658"/></linearGradient>
+    <g id="server" stroke-linejoin="round" stroke-width="1.5">
+      <path d="M0 0 50-25 105 2 55 28Z" fill="url(#top)" stroke="#86c0c8"/>
+      <path d="M0 0 55 28V58L0 30Z" fill="#17374b" stroke="#6399ac"/>
+      <path d="m55 28 50-26v30L55 58Z" fill="#102b3d" stroke="#68a1ab"/>
+      <path d="m10 16 20 10m-20-4 20 10" fill="none" stroke="#76a5b6"/>
+      <path d="m66 34 5-2m5-3 5-2" fill="none" stroke="#80f5d6" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+  <path d="M670 0h512q18 0 18 18v244q0 18-18 18H670Z" fill="url(#grid)"/>
+  <g fill="none" stroke="#58bda9" stroke-width="2" stroke-linejoin="round">
+    <path d="m827 149 83 42 93-47m-93 47 69 35 98-50"/>
+    <path d="m934 97-53 27 87 43" opacity=".55"/>
+  </g>
+  <g fill="#a8f1dd"><circle cx="910" cy="191" r="4"/><circle cx="979" cy="226" r="4"/><circle cx="1077" cy="176" r="4"/></g>
+  <use href="#server" x="782" y="97"/><use href="#server" x="908" y="53"/><use href="#server" x="972" y="120"/>
+  <path d="M60 67h33" stroke="#7ae4c7" stroke-width="4" stroke-linecap="round"/>
+  <text x="60" y="110" font-family="'Courier New',monospace" font-weight="bold" font-size="20" letter-spacing="2.5" fill="#8ce6d3">DEVOPS / BACKEND</text>
+  <text x="56" y="176" font-family="Arial,Helvetica,sans-serif" font-weight="bold" font-size="58" fill="#f2f7fc">Вячеслав Кузнецов</text>
+  <text x="60" y="221" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#c2d5e3">Системное администрирование и разработка</text>
+</svg>
